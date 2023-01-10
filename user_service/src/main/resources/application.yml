@@ -1,0 +1,11 @@
+server:
+  port: 8082
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/db02?serverTimezone=UTC
+    username: root
+    password: 1037807650Hjy
+    type: com.alibaba.druid.pool.DruidDataSource
+
+
